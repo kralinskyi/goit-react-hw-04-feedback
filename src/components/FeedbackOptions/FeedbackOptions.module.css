@@ -1,0 +1,51 @@
+.feedback {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px lightblue;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.good {
+  cursor: pointer;
+  background-color: lightgreen;
+}
+
+.good:hover {
+  box-shadow: 0px 3px 10px 3px lightgreen;
+}
+.good:active {
+  background-color: green;
+}
+
+.neutral {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.neutral:hover {
+  box-shadow: 0px 3px 10px 3px lightgray;
+}
+
+.neutral:active {
+  background-color: gray;
+}
+
+.bad {
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+.bad:hover {
+  box-shadow: 0px 3px 10px 3px lightcoral;
+}
+.bad:active {
+  background-color: crimson;
+}
