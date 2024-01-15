@@ -1,14 +1,9 @@
-.list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 0;
-  padding: 0;
+.statistics {
   list-style: none;
-  font-size: 30px;
+  padding: 0;
 }
 
-.listItem {
-  display: flex;
-  gap: 10px;
+.item {
+  margin-bottom: 5px;
+  font-size: 22px;
 }

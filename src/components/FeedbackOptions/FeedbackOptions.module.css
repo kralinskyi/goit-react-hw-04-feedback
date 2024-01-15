@@ -1,51 +1,19 @@
 .feedback {
   display: flex;
-  gap: 20px;
-  list-style: none;
+  align-items: center;
 }
 
-button {
-  width: 100px;
-  height: 40px;
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
   border-radius: 5px;
-  box-shadow: 3px 3px 2px lightblue;
-  font-size: 20px;
-  text-transform: capitalize;
-}
-
-.good {
   cursor: pointer;
-  background-color: lightgreen;
+  background-color: #3498db;
+  color: white;
+  border: none;
 }
 
-.good:hover {
-  box-shadow: 0px 3px 10px 3px lightgreen;
-}
-.good:active {
-  background-color: green;
-}
-
-.neutral {
-  cursor: pointer;
-  background-color: lightgray;
-}
-
-.neutral:hover {
-  box-shadow: 0px 3px 10px 3px lightgray;
-}
-
-.neutral:active {
-  background-color: gray;
-}
-
-.bad {
-  cursor: pointer;
-  background-color: lightcoral;
-}
-
-.bad:hover {
-  box-shadow: 0px 3px 10px 3px lightcoral;
-}
-.bad:active {
-  background-color: crimson;
+.btn:hover {
+  background-color: #2980b9;
 }
